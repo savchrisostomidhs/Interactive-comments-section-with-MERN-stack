@@ -1,0 +1,43 @@
+.comments {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.attribution {
+    display: none;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 1250px) {
+    .comments {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .comments {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .comments {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .comments {
+        padding: 10px;
+        width: 100%;
+    }
+}

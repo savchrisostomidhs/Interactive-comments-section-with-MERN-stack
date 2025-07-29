@@ -1,0 +1,66 @@
+form {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 1px solid hsl(223, 19%, 93%);
+    color: hsl(212, 24%, 26%);
+    flex: 1;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    min-height: 100px;
+    padding: 8px 16px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: 1px solid hsl(211, 10%, 45%);
+}
+
+button {
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
+    padding: 16px 12px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+    form {
+        flex-direction: column;
+        position: relative;
+    }
+
+    textarea {
+        order: -1;
+        width: 100%;
+    }
+
+    button {
+        bottom: 15px;
+        position: absolute;
+        right: 20px;
+    }
+}

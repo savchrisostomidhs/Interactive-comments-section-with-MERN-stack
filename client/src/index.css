@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(228, 33%, 97%);
+  display: flex;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  height: fit-content;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
